@@ -108,7 +108,11 @@ scribd "https://www.scribd.com/document/123456789/Titulo-del-documento"
 - El título detectado del documento
 - La ruta final del PDF
 
-**4.** El PDF quedará en tu carpeta de Descargas (`~/Downloads`), con el título del documento como nombre de archivo.
+**4.** El PDF quedará en tu carpeta de Descargas (`~/Downloads`), con el título del documento como nombre de archivo. Por ejemplo:
+
+```
+C:\Users\esticklack\Downloads\Titulo-del-documento.pdf
+```
 
 #### Opciones del comando `scribd`
 
