@@ -29,7 +29,7 @@ python --version
 ### 1. Clonar o descargar el proyecto
 
 ```bash
-git clone https://github.com/TU_USUARIO/script-scribd.git
+git clone https://github.com/esticklack/script-scribd.git
 cd script-scribd
 ```
 
@@ -117,7 +117,7 @@ scribd "https://www.scribd.com/document/123456789/Titulo-del-documento"
 **4.** El PDF quedará en tu carpeta de Descargas:
 
 ```
-C:\Users\TU_USUARIO\Downloads\Titulo-del-documento.pdf
+C:\Users\esticklack\Downloads\Titulo-del-documento.pdf
 ```
 
 #### Opciones del comando `scribd`
@@ -155,10 +155,10 @@ Solo necesario para PDFs de texto generados por Chrome (no para documentos de im
 
 ```bash
 # Crea una copia con sufijo _sinmargen
-python recortar_margenes.py "C:\Users\TU_USUARIO\Downloads\documento.pdf"
+python recortar_margenes.py "C:\Users\esticklack\Downloads\documento.pdf"
 
 # Sobrescribe el PDF original
-python recortar_margenes.py "C:\Users\TU_USUARIO\Downloads\documento.pdf" --reemplazar
+python recortar_margenes.py "C:\Users\esticklack\Downloads\documento.pdf" --reemplazar
 
 # Opciones adicionales
 python recortar_margenes.py "documento.pdf" --margen 4 --salida "limpio.pdf"
