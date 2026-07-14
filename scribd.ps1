@@ -1,7 +1,7 @@
 # Scribd PDF downloader — wrapper de PowerShell
 #
 # Uso en $PROFILE:
-#   . "C:\ruta\a\script-scribd\scribd.ps1"
+#   . "C:\ruta\a\scribd-downloader\scribd.ps1"
 #
 # Luego:
 #   scribd "https://www.scribd.com/document/..."

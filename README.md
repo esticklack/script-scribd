@@ -1,4 +1,4 @@
-# script-scribd
+# scribd-downloader
 
 Herramienta CLI para descargar documentos públicos de [Scribd](https://www.scribd.com) como PDF. Usa Chrome (Selenium) para renderizar el embed del documento, soporta documentos de texto e imágenes, y puede recortar márgenes de impresión automáticamente en Windows.
 
@@ -29,8 +29,8 @@ python --version
 ### 1. Clonar o descargar el proyecto
 
 ```bash
-git clone https://github.com/esticklack/script-scribd.git
-cd script-scribd
+git clone https://github.com/esticklack/scribd-downloader.git
+cd scribd-downloader
 ```
 
 ### 2. Crear un entorno virtual (recomendado)
@@ -77,7 +77,7 @@ Para usar el script desde cualquier terminal con un solo comando:
 2. Añade esta línea al final, apuntando a donde clonaste el repositorio:
 
    ```powershell
-   . "C:\ruta\a\script-scribd\scribd.ps1"
+   . "C:\ruta\a\scribd-downloader\scribd.ps1"
    ```
 
 3. Guarda el archivo y recarga el perfil:
@@ -216,7 +216,7 @@ scribd "https://www.scribd.com/document/..."
 ## Estructura del proyecto
 
 ```
-script-scribd/
+scribd-downloader/
 ├── scribd_dl.py          # Descargador principal
 ├── recortar_margenes.py  # Post-proceso de márgenes
 ├── scribd.ps1            # Wrapper PowerShell con barra de progreso
